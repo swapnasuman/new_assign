@@ -41,7 +41,7 @@ for test in pilotTests:
     for pilot, unit in test.items():
         print("{pilot} can sync with {unit}".format(pilot=pilot, unit=unit))
 
-print("\n Results:")
+print("\nExpected Results:")
 # combine tests using above function
 results = list_of_dictionaries_to_dicitonary_of_lists(pilotTests)
 # display results
